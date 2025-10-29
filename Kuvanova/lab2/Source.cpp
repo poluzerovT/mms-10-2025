@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <algorithm>//ДЛЯ min max
-#include <iomanip>//форм вывод
+#include <algorithm>
+#include <iomanip>
 
 
 const int PAYOFF[2][2] = {
@@ -225,7 +225,7 @@ int main() {
         }
     }
 
-    // Находим лучшие и худшие результаты по очкам и сериям
+    
     int bestTotalScore = 0;
     int worstTotalScore = 1000000;
     int bestMaxSeries = 0;
@@ -266,7 +266,7 @@ int main() {
         }
     }
 
-    // Вывод общих лучших результатов
+    
     std::cout << "\nОБЩИЕ ЛУЧШИЕ РЕЗУЛЬТАТЫ:\n";
     std::cout << "==========================\n";
     std::cout << "Лучший по очкам: " << bestScoreStrategy << " (" << bestTotalScore << " очков)\n";
@@ -275,7 +275,7 @@ int main() {
     std::cout << "Худший по сериям: " << worstSeriesStrategy << " (серия: " << worstMaxSeries << ")\n";
 
     
-    // Общие показатели George
+    
     std::cout << "\nОБЩИЕ ПОКАЗАТЕЛИ GEORGE:\n";
     std::cout << "========================\n";
 
@@ -302,7 +302,6 @@ int main() {
         std::cout << "Максимальная серия доминирования: " << maxSeries << "\n";
     }
 
-    // Очищаем память
     for (auto* strategy : strategies) {
         delete strategy;
     }

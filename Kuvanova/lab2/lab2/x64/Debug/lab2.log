@@ -1,4 +1,0 @@
-﻿  Source.cpp
-D:\универ\3 сем\MMS\mms-10-2025\Kuvanova\lab2\lab2\Source.cpp(64,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-D:\универ\3 сем\MMS\mms-10-2025\Kuvanova\lab2\lab2\Source.cpp(181,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  lab2.vcxproj -> D:\универ\3 сем\MMS\mms-10-2025\Kuvanova\lab2\x64\Debug\lab2.exe

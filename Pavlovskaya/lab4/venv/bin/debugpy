@@ -1,0 +1,9 @@
+#!/bin/sh
+'''exec' "/media/xXx_KaraTop_xXx/Новый том/вам чай с сахаром или с моими слезами/ММС/fork/mms-10-2025/Pavlovskaya/lab4/venv/bin/python3" "$0" "$@"
+' '''
+import sys
+from debugpy.server.cli import main
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(main())
